@@ -1,0 +1,5 @@
+@mixin bp-900 {
+	@media screen and (min-width: 900px) {
+		@content;
+	}
+}
