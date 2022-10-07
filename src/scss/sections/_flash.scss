@@ -21,11 +21,19 @@
 		background-image: url("/assets/square-portrait-7.jpg");
 	}
 }
+.flash-container {
+	position: absolute;
+	top: 100px;
+	overflow: hidden;
+	width: 100%;
+	height: 600px;
+}
 
 .flash {
 	position: absolute;
-	top: 0;
+	top: -100px;
 	left: 0;
+	z-index: 100;
 	height: 100vh;
 	width: 100vw;
 	display: flex;

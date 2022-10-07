@@ -1,0 +1,77 @@
+.wrapper {
+	position: absolute;
+	bottom: 20%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	width: 100vw;
+	height: 50px;
+	overflow: hidden;
+	background-color: #990d00;
+	display: flex;
+	align-items: center;
+	rotate: -13deg;
+}
+.marquesina {
+	position: relative;
+	display: flex;
+	width: 100%;
+
+	&-block {
+		flex: 1 0 auto;
+		display: flex;
+		justify-content: space-between;
+		font-family: $ff-monst;
+		font-weight: 600;
+		font-size: 30px;
+	}
+	&-text {
+		flex: 1 0 auto;
+		margin-left: 20px;
+	}
+}
+
+.wrapper2 {
+	position: absolute;
+	bottom: 35%;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 100;
+	width: 108vw;
+	height: 50px;
+	overflow: hidden;
+	background-color: #f2f2f2;
+	display: flex;
+	align-items: center;
+	rotate: 5deg;
+}
+
+.marquesina2 {
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+.marquesina-b {
+	position: relative;
+	flex: 1 0 auto;
+	display: flex;
+	justify-content: space-between;
+	font-family: $ff-monst;
+	font-weight: 600;
+	font-size: 30px;
+	left: -100%;
+	animation: marquesina 6s linear infinite;
+}
+.marquesina-t {
+	flex: 1 0 auto;
+	margin-left: 20px;
+}
+
+@keyframes marquesina {
+	from {
+		left: -100%;
+	}
+	to {
+		left: 0%;
+	}
+}

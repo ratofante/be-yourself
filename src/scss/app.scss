@@ -1,5 +1,7 @@
-@import "./general";
-@import "./breakpoints";
+@import "./general/general";
+@import "./general/breakpoints";
+
+@import "./components/marquesina";
 
 @import "./sections/navbar";
 @import "./sections/flash";

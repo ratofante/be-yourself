@@ -1,8 +1,0 @@
-
-
-
-const Portraits = () => {
-   const template = `
-   
-   `
-}
