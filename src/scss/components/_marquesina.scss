@@ -37,7 +37,7 @@
 	left: 50%;
 	transform: translateX(-50%);
 	z-index: 100;
-	width: 108vw;
+	width: 100vw;
 	height: 50px;
 	overflow: hidden;
 	background-color: #f2f2f2;
@@ -59,7 +59,6 @@
 	font-family: $ff-monst;
 	font-weight: 600;
 	font-size: 30px;
-	left: -100%;
 	animation: marquesina 6s linear infinite;
 }
 .marquesina-t {
@@ -69,9 +68,9 @@
 
 @keyframes marquesina {
 	from {
-		left: -100%;
+		transform: translateX(-100%);
 	}
 	to {
-		left: 0%;
+		transform: translateX(0%);
 	}
 }
